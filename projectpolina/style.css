@@ -1,0 +1,80 @@
+html {
+background-color: aliceblue;
+}
+header {
+height:calc(100px - 4px);
+width:calc(105% - 4px);
+position: fixed;
+margin-top: -10px;
+margin-left: -10px;
+margin-bottom: 0px;
+border-bottom: 2px solid silver;
+background-image: url(https://www.freewebheaders.com/wordpress/wp-content/gallery/featured-website-headers/flame-abstract-pink-background-header-4832.jpg);
+
+}
+article, aside {
+height: 700px;
+float: left;
+margin-top: -10px;
+}
+article {
+width:calc(70% - 8px);
+border-right: 2px solid silver;
+border-left: 2px solid silver;
+background-color:#FF69B4;
+
+}
+aside {
+width:15%;
+} 
+footer {
+background: #767675;
+height: 80px;
+margin-right: -8px;
+margin-left: -10px;
+margin-bottom: -10PX;
+
+}
+
+#layer {
+height: 100px;
+width: 100%;
+}
+
+ul {
+list-style-type: none;
+}
+h1 {
+margin-left: 100px;
+}
+#frontimg {
+margin: 200px;
+}
+a {
+border-radius: 10px;
+color: #000;
+background: #FFF79A;
+border-bottom: 5px solid #E1B442;
+box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+text-decoration: none;
+display: block;
+align-content: center;
+
+}
+a:hover {
+background: #786b59; 
+color: #ffe;
+}
+#div1 {
+padding: 5px;
+}
+#footpos {    
+left: 70%;
+position: absolute;   
+}
+#div2 {
+    position: absolute;
+    top: 30%;
+    margin-left: 110px;
+    
+}

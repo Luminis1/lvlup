@@ -1,0 +1,11 @@
+#p1 input:checked+label{
+    color: lawngreen;
+}
+#p2 input:after{
+   content: 'Checked';
+}
+.checkbox {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;

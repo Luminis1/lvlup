@@ -1,0 +1,22 @@
+li,button{
+    display: inline-block;
+    background-color: #eee;
+    list-style-type: none;
+    border: 2px solid silver;
+    width: 200px;
+    height: 200px;
+}
+
+
+#like:before{
+    content: "\2764";
+    
+}
+
+#vector:before{
+    content: "\f07a";
+}
+#shop:before{
+    content: "\2764";
+   
+}

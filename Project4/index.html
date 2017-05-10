@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+    <style>
+        body{ background: url(http://kawkazrg.ru/uploads/images/news/rel25072016_1_1.jpg);}
+        #center{top: 10%;
+        left:35%;
+        position: absolute;}
+        #center2{top: 0%;
+        left: 110%;
+        position: absolute}
+        #center3{
+            left: 110%;
+            top: 75%;
+            position: absolute;}
+            .button{
+            width: 210px;
+            height: 80px;
+            background-color:floralwhite;}
+    </style>
+<body>
+ <script>
+     alert('О боже, Владимир, это вы? Можно автограф?')
+    </script>
+  <div id="center">
+   <form method="post" action="https://translate.google.com/?hl=ru#en/ru/Sex%20of%20user">
+    <div>
+     <label for="log">Name</label>
+     </div>
+      <div>
+       <input id="Log" type="text" name="name" required min="4">
+       </div>
+     <div>
+      <label for="log">Surname</label>
+     </div>
+      <div>
+       <input id="Log" type="text" name="Surname" required>
+       </div>
+     <div>
+     <label for="log">Phone</label>
+</div>
+      <div>
+       <input id="Log" type="tel" name="Phone" pattern="0[1-9]{2}[1-9]{7}" placeholder="(0xx)xxxxxxx" required>
+       </div><div>
+     <label for="log">Email</label>
+</div>
+      <div>
+       <input id="Log" type="email" name="Phone" required>
+       </div>
+     <div>
+     <label for="log">Nickname</label>
+</div>
+      <div>
+       <input id="Log" type="text" name="nickname" required>
+       </div>
+     <div><label for="log">Password</label>
+     </div>
+      <div>
+       <input id="Log" type="password" name="password" required>
+       </div>
+     <div>
+     <label for="log">Confirm password</label>
+     </div>
+      <div>
+       <input id="Log" type="password" name="Confirmpassword" required>
+        </div>
+      <div><label for="log">Sex</label></div>
+      <div>
+      <label for="log1">Male</label>
+       <input id="Log1" type="radio" name="gender" value="male" required>
+       <label for="log2">Female</label>
+       <input id="Log2" type="radio" name="gender" value="female" required>
+       </div>
+     <div id="center2">
+        <fieldset>
+        <legend>Нам очень интересно узнать о вас!</legend>
+         <textarea name="selfinf"></textarea>
+         </fieldset>
+         <label>Откуда же вы?</label>   
+         <select name="geodata[]" multiple size="6" required>
+             <optgroup label="------------Город------------">
+             <option></option>
+             <option>Днепр</option>
+             <option>Лондон</option>
+             <option>Оттава</option>
+             </optgroup>
+             <optgroup label="------------Страна------------">
+             <option></option>
+             <option>Украина</option>
+             <option>Великобритания</option>
+             <option>Канада</option>
+             </optgroup>
+         </select>
+     </div>
+      <div id="center3">
+    <input type="submit" value="Мечты сбываются!!!" class="button">
+     </div>
+     </form>
+     </div>
+</body>
+</html>

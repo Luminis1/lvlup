@@ -1,0 +1,133 @@
+* 
+{ 
+margin: 0; 
+padding: 0; 
+} 
+nav{
+background-color: dimgrey; 
+}
+.nav 
+{ 
+height: 50px; 
+margin-left: 50px;
+} 
+.nav>li 
+{ 
+display: inline-block;
+
+} 
+.nav>li>a 
+{ 
+display:block; 
+height: 50px; 
+line-height: 50px; 
+padding-left: 10px; 
+padding-right: 10px; 
+color:darkorange; 
+text-decoration: none; 
+
+
+} 
+.nav>li>a:hover{background-color: black;
+} 
+#logo{
+position: absolute;
+top:2px;
+left:2px;
+width: 45px;
+height: 45px;
+}
+.banner{
+background-image: url(http://www.lin2gold.ru/skins/default/images/SiteLogo.jpg);
+
+height: 300px;
+background-repeat: no-repeat;
+background-attachment:;
+background-size:cover;
+border: 2px solid silver;
+}
+.art{
+width: 1280px;
+min-height: 2000px;
+margin: 0 auto;
+background-color: white;
+border-left: 2px solid silver;
+border-bottom: 2px solid silver;
+border-right: 2px solid silver;
+
+}
+.shop{
+width: 267px;
+min-height: 300px;
+background-color: white;
+float: left;
+margin:25px;
+border: 1px solid #ddd;
+
+}
+.photo{
+margin-left: 20px;
+}
+h3{
+color: #23a1d1;
+padding-left: 10px;
+font-family: 'Open Sans',sans-serif;
+margin-bottom: -25px;    
+}
+#first{
+margin: 5px;
+font-family: 'Open Sans',sans-serif;
+font-weight: 400;
+color: #444;
+font-size: 12px;
+line-height: 20px;
+}
+#sec{
+margin: 5px;
+font-family: 'Open Sans',sans-serif;
+font-weight: 400;
+color: #666;
+font-size: 12px;
+line-height: 20px;
+        
+    }
+
+.desc{
+Margin:25px;
+padding-top: 10px;
+font-family: 'Open Sans',sans-serif;
+
+}
+p{
+margin: 5px;
+font-family: 'Open Sans',sans-serif;
+font-weight: 400;
+color: #666;
+font-size: 12px;
+line-height: 20px;
+}
+
+.buttons li{
+display: inline-block;
+background-color: #eee;
+height: 40px;
+border-right: 1px solid #ddd;
+width: 32.93%;
+}
+button{
+width: 100%;
+border: 2px solid #eee;
+height: 40px;
+}
+
+button:hover{
+background-color: #ddd;
+}
+
+#like:before{
+content: "\2764";
+
+}
+button:hover{
+    content: attr(title);
+}
